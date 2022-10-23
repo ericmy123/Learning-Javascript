@@ -201,4 +201,4 @@ while (m > 0) {
     console.log(m);
 }
 
-const newArray =[1,2,3,4,5];
+const newArray =[1,2,3,4,5,6,7,8];
