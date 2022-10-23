@@ -201,3 +201,4 @@ while (m > 0) {
     console.log(m);
 }
 
+const newArray =[1,2,3,4,5];
