@@ -1,3 +1,4 @@
+
 const shopping = ['bread', 'milk', 'cheese', 'yogurt', 'kombucha'];
 console.log(shopping);
 
@@ -15,7 +16,7 @@ console.log(random);
 random.push('wait it okay!');
 console.log(random);
 
-const mdA = [7, 8, 9, 10, 11, '@', '!', [[.1, .2,.3], 2, 3]]; 
+const mdA = [7, 8, 9, 10, 11, '11@', '!', [[.1, .2,.3], 2, 3]]; 
 console.log(mdA.length);
 console.log(mdA[7][0][2])
 console.log(mdA.indexOf('@'));
@@ -38,14 +39,11 @@ console.log(firstShift);
 //The pop() method removes the last element from an array and returns that element. THIS METHOD CHANGES THE LENGTH OF THE ARRAY.
 
 const arrayX = [1, 2, 3, 4, 5, 6, 'first pie'];
-console.log(arrayX);
 const arrayPop = arrayX.pop(); 
-console.log(arrayPop);
+console.log(arrayPop);//why not displaying?
 const arrayPush = arrayX.push('then waffles');
 //console.log(arrayPush);
 console.log(arrayX);
-//add "first pie" back into array before "then waffles" and after 6.
-
 
 const fibSeq = [1, 1, 2, 3, 5, 8, 13];
 console.log(fibSeq);
